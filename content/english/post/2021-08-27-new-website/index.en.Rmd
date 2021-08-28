@@ -15,4 +15,7 @@ There was and will be a lot of effort to put into this long-term project. By con
 
 Many thanks to the creator of Blogdown, Yihui Xie, who also wrote the [**book**](https://bookdown.org/yihui/blogdown/) with a comprehensive introduction. I should also thank Alison Hill, who made the excellent [**tutorial**](https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/#welcome) explaining the process in detail, which assisted me solved many troubles.
 
+The reason I made my blog is simple. Yihui Xie indicated in the book that “if you don’t have a website nowadays, you don’t exist”. 
+
+"A well-designed and maintained website can be extremely helpful for other people to know you, and you do not need to wait for suitable chances at conferences or other occasions to introduce yourself in person to other people. On the other hand, a website is also highly useful for yourself to keep track of what you have done and thought. Sometimes you may go back to a certain old post of yours to relearn the tricks or methods you once mastered in the past but have forgotten." - by Yihui Xie
 
