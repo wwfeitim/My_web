@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+><head>
+  <title>
+    Wenwei Fei
+      |
+      Web Scraping by R
+
+
+    
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.87.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta
+    name="description"
+    content="
+      Hi, I am Wenwei Fei, and you can call me Tim
+
+
+    "
+  />
+  
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/main.min.51423ad97099a08f3a20e16d238c13adae76db7dd5e1913789bdc81143ff4cc6.css"
+    integrity="sha256-UUI62XCZoI86IOFtI4wTra52233V4ZE3ib3IEUP/TMY="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.f798cbda9aaa38f89eb38be6414bd082cfd71a6780375cbf67b6d2fb2b96491e.css"
+    integrity="sha256-95jL2pqqOPies4vmQUvQgs/XGmeAN1y/Z7bS&#43;yuWSR4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicons.icofavicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicons.icoapple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicons.icofavicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicons.icofavicon-16x16.png" />
+
+  <link rel="canonical" href="/post/web-scraping/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js"
+    integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js"
+      integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus="
+      crossorigin="anonymous"
+    ></script>
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Web Scraping by R"/>
+<meta name="twitter:description" content="Real Estate data (rental property)In this introduction, I will explain how to use Rselenium and rvest to collect real estate data."/>
+
+
+
+  
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Web Scraping by R",
+        "headline": "Web Scraping by R",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Real Estate data (rental property)\rIn this introduction, I will explain how to use Rselenium and rvest to collect real estate data.
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.com\/post\/web-scraping\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-07-09T00:00:00.00Z",
+        "datePublished": "2021-07-09T00:00:00.00Z",
+        "dateModified": "2021-07-09T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Wenwei Fei",
+            "url": "https://example.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/example.com\/favicons\/favicons.icofavicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://example.com/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/example.com\/post\/web-scraping\/",
+        "wordCount" : "1608",
+        "genre" : [ 
+      
+      "R"
+
+    ],
+        "keywords" : [ 
+      
+      "Rselenium"
+
+    
+      
+        ,
+
+      
+      "rvest"
+
+    
+      
+        ,
+
+      
+      "Web scraping"
+
+    ]
+    }
+  </script>
+
+
+
+</head>
+<body>
+    <header><div
+  class="page-top 
+    animated fadeInDown
+
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+  </a>
+  <nav>
+    <ul class="nav__list" id="navMenu">
+      <div class="nav__links">
+        
+        
+          
+          <li>
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+
+        
+          
+          <li>
+            <a
+              
+              href="/contact/"
+              
+              title=""
+              >Contact</a
+            >
+          </li>
+
+        
+        
+      </div>
+      <li>
+        
+          <a class="theme-switch" title="Switch Theme">
+            <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+          </a>
+
+        
+      </li>
+    </ul>
+  </nav>
+</div>
+</header>
+    <div class="wrapper">
+      <aside><div
+  class="sidebar
+    animated fadeInDown
+
+  "
+>
+  <div class="sidebar__content">
+    <div class="logo-title">
+      <div class="title">
+        <img src="/images/blue_1.jpg" alt="profile picture" />
+        <h3 title=""><a href="/">Tim&#39;s mini lab</a></h3>
+        <div class="description">
+          <p>Hi, I am Wenwei Fei, and you can call me Tim</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+      
+        <li>
+          <a href="https://www.linkedin.com/in/wenwei-fei-tim/" rel="me" aria-label="Linkedin">
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="https://github.com/wwfeitim" rel="me" aria-label="GitHub">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+        <li>
+          <a href="mailto:wenwei.fei@outlook.com" rel="me" aria-label="e-mail">
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+
+      
+    </ul>
+  </div><footer class="footer footer--sidebar">
+  <div class="by_farbox">
+    <ul class="footer__list">
+      <li class="footer__item">
+        &copy;
+        
+          Wenwei Fei
+          2021
+
+
+        
+      </li>
+      
+    </ul>
+  </div>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
+    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main>
+        <div class="autopagerize_page_element">
+          <div class="content">
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    <div class="post-content">
+      
+        <img class="post-thumbnail" src="/images/birds/lyrebird.jpg" alt="Thumbnail image" />
+
+      
+      <div class="post-title">
+        <h1>Web Scraping by R</h1>
+        
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                9/7/2021
+
+
+              </span
+            >
+            <em class="fas fa-stopwatch"></em>
+            <span class="reading-time">8-minute read</span>
+          </div>
+
+        
+      </div>
+<script src="https://example.com/post/web-scraping/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="real-estate-data-rental-property" class="section level1">
+<h1>Real Estate data (rental property)</h1>
+<p>In this introduction, I will explain how to use Rselenium and rvest to collect real estate data.</p>
+<p>You don’t need to be a data scientist to understand this tutorial. The only thing you need is fundamental R programming knowledge and a little web element experience in Chrome.</p>
+<p>Most real estate webs do not provide sufficient options to filter keywords precisely, but you can detect keywords from strings once you collect data in R.</p>
+<p>Here are two references that helped me to understand web scraping:</p>
+<ul>
+<li><a href="https://thatdatatho.com/tutorial-web-scraping-rselenium/" class="uri">https://thatdatatho.com/tutorial-web-scraping-rselenium/</a></li>
+<li><a href="https://github.com/yusuzech/r-web-scraping-cheat-sheet/blob/master/README.md" class="uri">https://github.com/yusuzech/r-web-scraping-cheat-sheet/blob/master/README.md</a>.</li>
+<li><a href="https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html" class="uri">https://cran.r-project.org/web/packages/RSelenium/vignettes/basics.html</a></li>
+</ul>
+</div>
+<div id="step-1" class="section level1">
+<h1>Step 1</h1>
+<div id="load-packages" class="section level2">
+<h2>Load packages</h2>
+<p>The first thing to do is to load packages</p>
+<pre class="r"><code>library(tidyverse)
+library(RSelenium) # scrape dynamic sites
+library(rvest) # scrape static sites
+library(xml2) # parse page elements
+library(httr) # parse page elements
+library(data.table)</code></pre>
+<p>To use Selenium, you need to open a <strong>remote driver</strong> first. The most common issue that happens here is <strong>the wrong chrome version</strong>. Sometimes your updated Chrome version does not match the latest chrome version that the selenium driver supported. One reason is that the latest chrome of Selenium driver matches the Chrome beta version rather than normal Chrome. You can always set up an earlier version in <code>rsDriver()</code> to solve this problem, but here I provide a smarter option.</p>
+</div>
+</div>
+<div id="step-2" class="section level1">
+<h1>Step 2</h1>
+<div id="select-chrome-version-and-connect-selenium-driver" class="section level2">
+<h2>Select chrome version and connect selenium driver</h2>
+<pre class="r"><code># Check the available chrome version, the default is latest
+verlist &lt;- binman::list_versions(&quot;chromedriver&quot;) %&gt;% flatten_chr()
+
+# check my chrome version. wmic: WMI command-line. The file path may vary
+version &lt;- system2(command = &quot;wmic&quot;,args = &#39;datafile where name=&quot;C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe&quot; get Version /value&#39;,stdout = TRUE,stderr = TRUE)
+version &lt;- str_sub(version[3],start = 9,end = -2)
+
+# select the latest version earlier than the current chrome version 
+ver &lt;- max(verlist[version &gt; verlist])
+
+# driver setting | &quot;redr&quot; is for remote driver
+driver &lt;- rsDriver(browser = &quot;chrome&quot;, chromever = ver)
+driver$client$close()
+redr &lt;- driver[[&quot;client&quot;]]
+redr$open() # open remote driver
+# redr$close() # close remote driver </code></pre>
+<p>if you success, you will open a blank Chrome page like this:
+<img src="images/blankpage.png" /></p>
+</div>
+</div>
+<div id="step-3" class="section level1">
+<h1>Step 3</h1>
+<div id="disconnect-remote-driver-you-dont-need-to-do-it-now" class="section level2">
+<h2>Disconnect remote driver (you don’t need to do it now)</h2>
+<p>Although <code>redr$close()</code> can close the Chrome, it does not disconnect the driver and you can not establish the driver again if you do not disconnect. You can not do it in R but you can command R to kill the task in system.</p>
+<ul>
+<li><a href="https://github.com/ropensci/RSelenium/issues/228" class="uri">https://github.com/ropensci/RSelenium/issues/228</a></li>
+</ul>
+<pre class="r"><code># to cleanup the port, by kill the java instance(s) inside Rstudio
+# refer: https://github.com/ropensci/RSelenium/issues/228
+system(&quot;taskkill /im java.exe /f&quot;, intern=FALSE, ignore.stdout=FALSE)
+# check if ports still open
+pingr::ping_port(&quot;localhost&quot;, 4567)</code></pre>
+</div>
+</div>
+<div id="step-4" class="section level1">
+<h1>Step 4</h1>
+<div id="we-first-open-the-url" class="section level2">
+<h2>We first open the URL</h2>
+<pre class="r"><code>main_site &lt;- &quot;https://www.domain.com.au&quot; # Domain main page
+
+# rent price between $300 to $400 per week in Clayton
+clayton_300_400 &lt;- &quot;https://www.domain.com.au/rent/clayton-vic-3168/?ptype=duplex,free-standing,new-home-designs,new-house-land,semi-detached,terrace,town-house,villa&amp;bedrooms=2-any&amp;price=300-400&amp;excludedeposittaken=1&amp;carspaces=1-any&amp;ssubs=0&amp;page=1&quot;
+
+url &lt;- clayton_300_400 # give value to url
+
+redr$navigate(url) # navigate to the page</code></pre>
+<p><img src="images/navigate.png" /></p>
+<p>You can also find the number of total pages here. I will explain why do you need this later.</p>
+<p><img src="images/total%20pages.png" /></p>
+</div>
+</div>
+<div id="step-5" class="section level1">
+<h1>Step 5</h1>
+<div id="store-urls-for-property-lists" class="section level2">
+<h2>Store URLs for property lists</h2>
+<p>Our next target is to identify page structure and store all URLs.</p>
+<p>You can find the <strong>“page=1”</strong> in the tail of the URL, this indicates the first web page for a total of 80 properties.
+Each web page contains 20 properties so that you have a total of 4 web pages.</p>
+<p>To store 4 URLs, you can use function <code>paste0()</code>.</p>
+<pre class="r"><code>urls &lt;- sapply(1:4, function(x){
+  url &lt;- &quot;https://www.domain.com.au/rent/clayton-vic-3168/?ptype=duplex,free-standing,new-home-designs,new-house-land,semi-detached,terrace,town-house,villa&amp;bedrooms=2-any&amp;price=300-400&amp;excludedeposittaken=1&amp;carspaces=1-any&amp;page=&quot;
+  urls &lt;- paste0(url,x)
+})</code></pre>
+<p><img src="images/URLs.png" /></p>
+</div>
+</div>
+<div id="step-6" class="section level1">
+<h1>Step 6</h1>
+<div id="inspect-web-elements" class="section level2">
+<h2>Inspect web elements</h2>
+<p>We find there are 20 properties on each page. In order to collect all information on each property, you need to open each property page. Before that, you have to find and collect 20 URLs of properties in each page.</p>
+<p>Right-click in Chrome you can open a menu and click “inspect”. Or you can simply use Ctrl+Shift+I.</p>
+<p><img src="images/inspect.png" /></p>
+<p>Move cursor to the address of one property and right-click to choose “inspect”. The element window will automatically highlight the selected web elements.</p>
+<p><img src="images/property_sample.png" />
+<img src="images/highlight.png" /></p>
+<p>Find keywords <strong>“href=”</strong>. This is the URL for this property. You can also find the <strong>“class=”</strong> which is another key element that you will use in the next step.</p>
+</div>
+</div>
+<div id="step-7" class="section level1">
+<h1>Step 7</h1>
+<div id="extract-80-urls-for-all-properties." class="section level2">
+<h2>Extract 80 URLs for all properties.</h2>
+<div id="using-rselenium-for-dynamic-site" class="section level3">
+<h3>7-1 Using Rselenium (for dynamic site)</h3>
+<p>To properly understand this part, you need to identify what is <strong>“class=”</strong> and <strong>“href=”</strong> in the web elements.</p>
+<p><strong>The easier way to understand these is that you assume the “class=” is the lock of the chest (web elements), and “href=” is the reward in the chest.</strong></p>
+<p>Since you can not physically touch the chest, you use R to mimic our behaviour.</p>
+<p>First, you use <code>redr$findElements</code> to unlock the chest.</p>
+<pre class="r"><code># I apply xpath in this example
+each_prop_links &lt;- redr$findElements(using = &quot;xpath&quot;, value = &quot;//*[@class=&#39;address is-two-lines css-1y2bib4&#39;]&quot;)</code></pre>
+<p>Where the <strong>“xpath”</strong> is the tool you use to unlock, and value = "//*<span class="citation">[@class='address is-two-lines css-1y2bib4']</span>" is the hacking codes.</p>
+<p>You can find “class=‘address is-two-lines css-1y2bib4’” from web elements as following:</p>
+<p><img src="images/web_elements.png" /></p>
+<p>variable “each_prop_links” helps to store all information related to the specific class. However, you only need the information store in the <code>"href="</code>.</p>
+<p><strong>Now, find 20 property address.</strong></p>
+<p>you can use <code>each_prop_links$getElementAttribute("href")</code> by loop to extract 20 urls for all property in the first list.</p>
+<pre class="r"><code>all_links_a_page &lt;- sapply(each_prop_links,function(x){x$getElementAttribute(&quot;href&quot;)}) 
+all_links_a_page &lt;- data.frame(link = unlist(all_links_a_page))</code></pre>
+<p><img src="images/all%20links%20a%20page.png" /></p>
+<p><strong>Now, find 80 properties</strong></p>
+<pre class="r"><code># 80 properties links:
+
+links_all &lt;- data.frame()
+for(i in 1:(length(urls))){
+  redr$navigate(paste0(urls[[i]]))
+  Sys.sleep(3)
+  links &lt;- redr$findElements(using = &quot;xpath&quot;, value = &quot;//*[@class=&#39;address is-two-lines css-1y2bib4&#39;]&quot;)
+  df &lt;- sapply(links,function(x){x$getElementAttribute(&quot;href&quot;)})
+  df &lt;- data.frame(link = unlist(df))
+  Sys.sleep(1)
+  links_all = rbind(links_all, df)
+}</code></pre>
+<p>Depends on your computer’s performance and the internet speed, <code>Sys.sleep()</code> can vary.</p>
+<p>You can use <code>uniqueN()</code> to check duplication. Make sure the output is 80 links.</p>
+<p>You should only consider Selenium when rvest is unavailable. Rselenium is usually time-consuming.</p>
+</div>
+<div id="using-rvest-for-static-web" class="section level3">
+<h3>7-2 Using rvest (for static web)</h3>
+<p>In rvest package, <code>read_html()</code> is the most popular function to parse web elements. Rvest does not require you to open a remote driver, but you still need to understand the web elements.</p>
+<p>However, if you try <code>read_html(url)</code> in this tutorial example, R will run this code for a very, very long time, at least I waited five minutes and it was still running.</p>
+<p>The reason for long waiting can be complicated and I am lack of relevant knowledge to figure out. Fortunately, plan B is available.</p>
+<p><strong>The alternative way to parse elements is to use the “httr” package.</strong></p>
+<pre class="r"><code># GET() and content() do similar work as read_html(). 
+response &lt;- GET(urls[1])
+page &lt;- content(response , as = &quot;parsed&quot;)</code></pre>
+<p><strong>Return to rvest package</strong></p>
+<pre class="r"><code># Extract elements from &quot;page&quot; and record addresses from &quot;href=&quot;
+page_links &lt;- page %&gt;% html_nodes(&quot;.address.is-two-lines.css-1y2bib4&quot;) %&gt;% html_attr(&quot;href&quot;)</code></pre>
+<ul>
+<li>We can use <code>html_elements()</code> to replace <code>html_nodes()</code></li>
+<li>This is exactly the function of <code>"class="</code> and <code>"href="</code> in Rselenium package</li>
+</ul>
+<p><strong>To store all 80 addresses, you can use a similar method as you applied in the Rselenium part.</strong></p>
+<pre class="r"><code>store_links &lt;- data.frame()
+pagelinks &lt;- function(urls){
+  response &lt;- GET(urls)
+  page &lt;- content(response, as = &quot;parsed&quot;)
+  one_page_links &lt;- page %&gt;% html_nodes(&quot;.address.is-two-lines.css-1y2bib4&quot;) %&gt;% 
+    html_attr(&quot;href&quot;) %&gt;% data.frame(links = .)
+  store_links &lt;&lt;- rbind(store_links, one_page_links)
+}</code></pre>
+</div>
+</div>
+</div>
+<div id="step-8" class="section level1">
+<h1>Step 8</h1>
+<div id="collect-property-details-from-each-link" class="section level2">
+<h2>Collect property details from each link</h2>
+<p>When you open the link for a property, you can find details such as price, address, number of bedrooms, bathrooms, car park, and description. These are the details you will scrape.</p>
+<p>Scraping these details is just like what you did for “class=” and “href=”. Besides, you only need to consider “class=” in this part.</p>
+<div id="scraping-rent-price" class="section level3">
+<h3>8-1 scraping rent price</h3>
+<p>Inspect the web elements of rent price by right-clicking it and chose to inspect.</p>
+<p><img src="images/property%20detail.png" /></p>
+<p>We will find the high lighted elements as follow:</p>
+<p><img src="images/highlight_2.png" /></p>
+<pre class="r"><code># price example
+
+price &lt;- page %&gt;% html_nodes(&quot;.css-1texeil&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  str_extract(.,&quot;\\-*\\d+\\.*\\d*&quot;) # only keep the digits, here is 380.00</code></pre>
+</div>
+<div id="repeat-process-to-all-details" class="section level3">
+<h3>8-2 repeat process to all details</h3>
+<pre class="r"><code># address
+
+page %&gt;% html_nodes(&quot;.css-164r41r&quot;) %&gt;% 
+
+  html_text()
+
+# postcode
+
+page %&gt;% html_nodes(&quot;.css-164r41r&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  word(.,-1)
+
+# house / townhouse
+
+page %&gt;% html_nodes(&quot;.css-in3yi3&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  .[[2]] 
+
+# number of bedroom/ bathroom/ car park
+
+bed &lt;- page %&gt;% html_nodes(&quot;.css-lvv8is&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  .[[1]] %&gt;% word(.,1,1)
+
+
+
+bath &lt;- page %&gt;% html_nodes(&quot;.css-lvv8is&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  .[[2]] %&gt;% word(.,1)
+
+
+
+park &lt;- page %&gt;% html_nodes(&quot;.css-lvv8is&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  .[[3]] %&gt;% word(.,1)
+
+
+
+# description
+
+decp &lt;- page %&gt;% html_nodes(&quot;.css-bq4jj8 p&quot;) %&gt;% 
+
+  html_text() %&gt;% 
+
+  paste(collapse = &quot; &quot;) </code></pre>
+</div>
+<div id="simple-filters" class="section level3">
+<h3>8-3 simple filters</h3>
+<p>You can also filter keywords such as " heat" and " condition" by str_detect()</p>
+<pre class="r"><code># test if there is heating information
+
+decp %&gt;% 
+
+  str_detect(&quot; heat&quot;)
+
+# 1 = mentioned heat/heating/heat...... in description, 0 = null
+
+ifelse(str_detect(decp,&quot; heat&quot;),1,0)
+
+# 1 = mentioned condition/conditioning/condition.... in description, 0 = null
+
+ifelse(str_detect(decp,&quot; condition&quot;),1,0)</code></pre>
+<ul>
+<li>beware that I leave a whitespace before “heat” and “condition” to avoid certain situation such as “greatcondition”.</li>
+</ul>
+</div>
+<div id="put-all-parts-together" class="section level3">
+<h3>8-4 Put all parts together</h3>
+<pre class="r"><code>df_all_data &lt;- data.frame()
+
+
+
+scraper &lt;- function(links){
+
+  # single url 
+
+  url &lt;- links
+
+  # PARSE PAGE URL
+
+  response &lt;- GET(url)
+
+  page &lt;- content(response, as = &quot;parsed&quot;)
+
+  Sys.sleep(0.5)
+
+  # rent price
+
+  rent_price &lt;- 
+
+    page %&gt;% html_nodes(&quot;.css-1texeil&quot;) %&gt;% 
+
+    html_text() %&gt;% 
+
+    str_extract(.,&quot;\\-*\\d+\\.*\\d*&quot;)
+
+  # address
+
+  address &lt;- 
+
+    page %&gt;% html_nodes(&quot;.css-164r41r&quot;) %&gt;% 
+
+    html_text()
+
+  #postcode
+
+  postcode &lt;- 
+
+    address %&gt;% word(.,-1)
+
+  # property type
+
+  type &lt;- page %&gt;% html_nodes(&quot;.css-in3yi3&quot;) %&gt;% 
+
+    html_text() %&gt;% 
+
+    .[[2]]
+
+  # bedroom
+
+  bedroom &lt;- page %&gt;% html_nodes(&quot;.css-lvv8is&quot;) %&gt;% 
+
+    html_text() %&gt;% 
+
+    .[[1]] %&gt;% word(.,1,1)
+
+  #bathroom
+
+  bathroom &lt;- page %&gt;% html_nodes(&quot;.css-lvv8is&quot;) %&gt;% 
+
+    html_text() %&gt;% 
+
+    .[[2]] %&gt;% word(.,1)
+
+  # park
+
+  parkspace &lt;- page %&gt;% html_nodes(&quot;.css-lvv8is&quot;) %&gt;% 
+
+    html_text() %&gt;% 
+
+    .[[3]] %&gt;% word(.,1)
+
+  # description
+
+  description &lt;- 
+
+    page %&gt;% html_nodes(&quot;.css-bq4jj8 p&quot;) %&gt;% 
+
+    html_text() %&gt;% 
+
+    paste(collapse = &quot; &quot;)
+
+  # heat related information 
+
+  heat &lt;- ifelse(str_detect(description,&quot; heat&quot;),1,0)
+
+  # air condition information
+
+  ac &lt;- ifelse(str_detect(description,&quot; air &quot;),1,0)
+
+  # store single property information
+
+  df_one_page &lt;- data.frame(rent_price = rent_price,
+
+                            address = address,
+
+                            postcode = postcode,
+
+                            type = type,
+
+                            bedroom = bedroom,
+
+                            bathroom = bathroom,
+
+                            parkspace = parkspace,
+
+                            description = description,
+
+                            heat = heat,
+
+                            ac = ac)
+
+  df_all_data &lt;&lt;- rbind(df_all_data, df_one_page)
+
+}
+
+
+
+sapply(links, scraper)</code></pre>
+<p><img src="images/final_data.png" /></p>
+<p>Great! The web scraping is just done! You can clean the data, add filters or output CSV.</p>
+</div>
+</div>
+</div>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
+          <span class="separator"><a class="category" href="/categories/r/">R</a></span>
+
+
+
+
+        
+
+        
+          <span class="separator"><a class="tag" href="/tags/rselenium/">Rselenium</a><a class="tag" href="/tags/rvest/">rvest</a><a class="tag" href="/tags/web-scraping/">Web scraping</a></span>
+
+
+
+
+        
+      </div>
+    </div>
+
+    
+  </div>
+
+
+          </div>
+        </div>
+      </main>
+    </div><footer class="footer footer--base">
+  <div class="by_farbox">
+    <ul class="footer__list">
+      <li class="footer__item">
+        &copy;
+        
+          Wenwei Fei
+          2021
+
+
+        
+      </li>
+      
+    </ul>
+  </div>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js"
+    integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
