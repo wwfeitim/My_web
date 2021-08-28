@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Tim&#39;s mini lab</title>
-    <link>https://example.com/series/</link>
+    <link>https://timfei.netlify.app/series/</link>
     <description>Recent content in Series on Tim&#39;s mini lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://timfei.netlify.app/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

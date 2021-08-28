@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tim&#39;s mini lab</title>
-    <link>https://example.com/</link>
+    <link>https://timfei.netlify.app/</link>
     <description>Recent content on Tim&#39;s mini lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timfei.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web Scraping by R</title>
-      <link>https://example.com/post/web-scraping/</link>
+      <link>https://timfei.netlify.app/post/web-scraping/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/web-scraping/</guid>
+      <guid>https://timfei.netlify.app/post/web-scraping/</guid>
       
         <description>Real Estate data (rental property)In this introduction, I will explain how to use Rselenium and rvest to collect real estate data.</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Cover letter automation</title>
-      <link>https://example.com/post/coverletter/</link>
+      <link>https://timfei.netlify.app/post/coverletter/</link>
       <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/coverletter/</guid>
+      <guid>https://timfei.netlify.app/post/coverletter/</guid>
       
         <description>In this introduction, I will explain how to partially automate your cover letter by R.</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>About Me</title>
-      <link>https://example.com/about/</link>
+      <link>https://timfei.netlify.app/about/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://timfei.netlify.app/about/</guid>
       
         <description>Please don&amp;rsquo;t make it wrong. The blue budgie is not me but my favourite pet, and I call it Brutus.</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title></title>
-      <link>https://example.com/archives/</link>
+      <link>https://timfei.netlify.app/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/archives/</guid>
+      <guid>https://timfei.netlify.app/archives/</guid>
       
         <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Contact</title>
-      <link>https://example.com/contact/</link>
+      <link>https://timfei.netlify.app/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/contact/</guid>
+      <guid>https://timfei.netlify.app/contact/</guid>
       
         <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title></title>
-      <link>https://example.com/imprint/</link>
+      <link>https://timfei.netlify.app/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/imprint/</guid>
+      <guid>https://timfei.netlify.app/imprint/</guid>
       
         <description></description>
       

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tim&#39;s mini lab</title>
-    <link>https://example.com/tags/</link>
+    <link>https://timfei.netlify.app/tags/</link>
     <description>Recent content in Tags on Tim&#39;s mini lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timfei.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>automation</title>
-      <link>https://example.com/tags/automation/</link>
+      <link>https://timfei.netlify.app/tags/automation/</link>
       <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/automation/</guid>
+      <guid>https://timfei.netlify.app/tags/automation/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>cover letter</title>
-      <link>https://example.com/tags/cover-letter/</link>
+      <link>https://timfei.netlify.app/tags/cover-letter/</link>
       <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/cover-letter/</guid>
+      <guid>https://timfei.netlify.app/tags/cover-letter/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Pagedown</title>
-      <link>https://example.com/tags/pagedown/</link>
+      <link>https://timfei.netlify.app/tags/pagedown/</link>
       <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/pagedown/</guid>
+      <guid>https://timfei.netlify.app/tags/pagedown/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Rselenium</title>
-      <link>https://example.com/tags/rselenium/</link>
+      <link>https://timfei.netlify.app/tags/rselenium/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/rselenium/</guid>
+      <guid>https://timfei.netlify.app/tags/rselenium/</guid>
       
         <description></description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>rvest</title>
-      <link>https://example.com/tags/rvest/</link>
+      <link>https://timfei.netlify.app/tags/rvest/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/rvest/</guid>
+      <guid>https://timfei.netlify.app/tags/rvest/</guid>
       
         <description></description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>Web scraping</title>
-      <link>https://example.com/tags/web-scraping/</link>
+      <link>https://timfei.netlify.app/tags/web-scraping/</link>
       <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/web-scraping/</guid>
+      <guid>https://timfei.netlify.app/tags/web-scraping/</guid>
       
         <description></description>
       

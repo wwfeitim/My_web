@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/post/web-scraping/</loc>
+    <loc>https://timfei.netlify.app/post/web-scraping/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/coverletter/</loc>
+    <loc>https://timfei.netlify.app/post/coverletter/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://timfei.netlify.app/about/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://timfei.netlify.app/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/automation/</loc>
+    <loc>https://timfei.netlify.app/tags/automation/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://timfei.netlify.app/categories/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/cover-letter/</loc>
+    <loc>https://timfei.netlify.app/tags/cover-letter/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/pagedown/</loc>
+    <loc>https://timfei.netlify.app/tags/pagedown/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://timfei.netlify.app/post/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/r/</loc>
+    <loc>https://timfei.netlify.app/categories/r/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://timfei.netlify.app/tags/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/rselenium/</loc>
+    <loc>https://timfei.netlify.app/tags/rselenium/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/rvest/</loc>
+    <loc>https://timfei.netlify.app/tags/rvest/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/web-scraping/</loc>
+    <loc>https://timfei.netlify.app/tags/web-scraping/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/archives/</loc>
+    <loc>https://timfei.netlify.app/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/contact/</loc>
+    <loc>https://timfei.netlify.app/contact/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/imprint/</loc>
+    <loc>https://timfei.netlify.app/imprint/</loc>
   </url><url>
-    <loc>https://example.com/series/</loc>
+    <loc>https://timfei.netlify.app/series/</loc>
   </url>
 </urlset>

@@ -4,7 +4,6 @@ author: "Wenwei Fei"
 date: 2021-07-09
 categories: ["R"]
 tags: ["Rselenium", "rvest", "Web scraping"]
-weight: 100
 draft: false
 slug: "web scraping"
 thumbnail: "images/birds/lyrebird.jpg"
