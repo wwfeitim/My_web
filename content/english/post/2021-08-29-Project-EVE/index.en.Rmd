@@ -35,6 +35,6 @@ head(df)
 ```
 
 
-The second part is to build a calculator by `Shiny` and insert it into my blog. This calculator can predict the money saved by the switch from fuel combustion vehicle to pure electronic car in long-term period. Learning `Shiny` is a critical task in this project. By presenting the model through `Siny`, everyone can use the tool without knowing to program it.
+The second part is to build a calculator by `Shiny` and embed it into my blog. This calculator can predict the money saved by the switch from fuel combustion vehicle to pure electronic car in long-term period. Learning `Shiny` is a critical task in this project. By presenting the model through `Siny` app, everyone can use the tool without knowing to program it.
 
 Hoping I can complete this project by October.
