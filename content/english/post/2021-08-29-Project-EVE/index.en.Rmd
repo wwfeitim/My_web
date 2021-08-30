@@ -1,5 +1,5 @@
 ---
-title: "Project EVE (Electric Vehicle and fuel combustion Vehicle Evaluation)"
+title: "Project EVE"
 author: "Wenwei Fei"
 date: 2021-08-29
 categories: ["R"]
