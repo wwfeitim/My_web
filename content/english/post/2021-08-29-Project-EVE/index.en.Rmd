@@ -4,7 +4,7 @@ author: "Wenwei Fei"
 date: 2021-08-29
 categories: ["R"]
 tags: ["web scraping"]
-draft: false
+draft: FALSE
 slug: "eve-data-collection"
 thumbnail: "images/birds/black_parrot.jpg"
 ---
