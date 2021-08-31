@@ -1,12 +1,16 @@
 ---
-title: "Overview of Vehicle pricing trends in 2021"
-author: "Wenwei Fei"
-date: 2021-08-31
-categories: ["R"]
-tags: ["Vehicle Price Analysis","ggplot2","plot"]
-draft: FALSE
-slug: "EVE-first-overview"
-thumbnail: "images/birds/bird_3.jpg"
+title: Overview of Vehicle pricing trends in 2021
+author: Wenwei Fei
+date: '2021-08-31'
+categories:
+  - R
+tags:
+  - ggplot2
+  - plot
+  - Vehicle Price Analysis
+draft: no
+slug: EVE-first-overview
+thumbnail: images/birds/bird_3.jpg
 ---
 
 ```{r setup, include=FALSE}
@@ -153,7 +157,7 @@ df_test <- df[!is.na(price_adj)]
 df_test[,.(avg_price = mean(price_adj)), .(make)]
 ```
 
-# Introduction
+# Introduction  
 
 This is the first stage in the EVE project. I will introduce some conclusions from what I found in the data and plots. The data collected thirteen of the most popular car brands from the module year 2011 to 2021. The data include over 76000 cars on sale in August this year.
 
