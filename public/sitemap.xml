@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://timfei.netlify.app/post/web-scraping/</loc>
-    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timfei.netlify.app/post/coverletter/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timfei.netlify.app/</loc>
     <lastmod>2021-08-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -56,6 +50,9 @@
     <loc>https://timfei.netlify.app/tags/cover-letter/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timfei.netlify.app/post/coverletter/</loc>
+    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timfei.netlify.app/tags/pagedown/</loc>
     <lastmod>2021-07-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -63,6 +60,9 @@
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timfei.netlify.app/tags/rvest/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timfei.netlify.app/post/web-scraping/</loc>
     <lastmod>2021-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timfei.netlify.app/archives/</loc>
