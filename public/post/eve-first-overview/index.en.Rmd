@@ -159,7 +159,7 @@ df_test[,.(avg_price = mean(price_adj)), .(make)]
 
 # Introduction  
 
-This is the first stage in the EVE project. I will introduce some conclusions from what I found in the data and plots. The data collected thirteen of the most popular car brands from the module year 2011 to 2021. The data include over 76000 cars on sale in August this year.
+This is the first stage in the EVE project. I will introduce some conclusions from what I found in the data and plots. The data collected thirteen of the most popular car brands from the model year 2011 to 2021. The data include over 76000 cars on sale in August this year.
 
 This introduction discusses the brands only, and I will involve some models and series in the next post. 
 
