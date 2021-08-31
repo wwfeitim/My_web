@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Tim&#39;s mini lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timfei.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timfei.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web Scraping by R</title>
       <link>https://timfei.netlify.app/post/web-scraping/</link>
@@ -26,6 +26,39 @@
       <guid>https://timfei.netlify.app/post/coverletter/</guid>
       
         <description>In this introduction, I will explain how to partially automate your cover letter by R.</description>
+      
+    </item>
+    
+    <item>
+      <title>Overview of Vehicle pricing trends in 2021</title>
+      <link>https://timfei.netlify.app/post/eve-first-overview/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timfei.netlify.app/post/eve-first-overview/</guid>
+      
+        <description>IntroductionThis is the first stage in the EVE project.</description>
+      
+    </item>
+    
+    <item>
+      <title>Project EVE</title>
+      <link>https://timfei.netlify.app/post/eve-data-collection/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timfei.netlify.app/post/eve-data-collection/</guid>
+      
+        <description>A new project Eve (Electric Vehicle and fuel combustion Vehicle Evaluation) here!</description>
+      
+    </item>
+    
+    <item>
+      <title>New Website</title>
+      <link>https://timfei.netlify.app/post/blogdown/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timfei.netlify.app/post/blogdown/</guid>
+      
+        <description>After two days of struggle, I finally move my posts to the new website, a website that I own.</description>
       
     </item>
     

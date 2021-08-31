@@ -7,7 +7,7 @@
   <title>
     Wenwei Fei
       |
-      Categories
+      Project EVE
 
 
     
@@ -56,12 +56,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicons.icofavicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicons.icofavicon-16x16.png" />
 
-  <link rel="canonical" href="/categories/" />
+  <link rel="canonical" href="/post/eve-data-collection/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/categories/index.xml" title="Tim's mini lab" />
-
-
   
   
   
@@ -86,8 +83,8 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://timfei.netlify.app/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="Hi, I am Wenwei Fei, and you can call me Tim"/>
+<meta name="twitter:title" content="Project EVE"/>
+<meta name="twitter:description" content="A new project Eve (Electric Vehicle and fuel combustion Vehicle Evaluation) here!"/>
 
 
 
@@ -96,6 +93,88 @@
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Project EVE",
+        "headline": "Project EVE",
+        "alternativeHeadline": "",
+        "description": "
+      
+        A new project Eve (Electric Vehicle and fuel combustion Vehicle Evaluation) here!
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/timfei.netlify.app\/post\/eve-data-collection\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Wenwei Fei"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-08-29T00:00:00.00Z",
+        "datePublished": "2021-08-29T00:00:00.00Z",
+        "dateModified": "2021-08-29T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Wenwei Fei",
+            "url": "https://timfei.netlify.app/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/timfei.netlify.app\/favicons\/favicons.icofavicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "https://timfei.netlify.app/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "https:\/\/timfei.netlify.app\/post\/eve-data-collection\/",
+        "wordCount" : "436",
+        "genre" : [ 
+      
+      "R"
+
+    ],
+        "keywords" : [ 
+      
+      "web scraping"
+
+    ]
+    }
+  </script>
+
+
 
 </head>
 <body>
@@ -246,37 +325,83 @@
         <div class="autopagerize_page_element">
           <div class="content">
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
 
     "
   >
-    <ul class="list-with-title">
+    <div class="post-content">
       
-        <div class="listing-title">2021</div>
-        
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/categories/r/" title="R">R</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      31/8/2021
-
-
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
-
-        
-
+        <img class="post-thumbnail" src="/images/birds/black_parrot.jpg" alt="Thumbnail image" />
 
       
-    </ul>
+      <div class="post-title">
+        <h1>Project EVE</h1>
+        
+          <div class="info">
+            <em class="fas fa-calendar-day"></em>
+            <span class="date"
+              >
+                29/8/2021
+
+
+              </span
+            >
+            <em class="fas fa-stopwatch"></em>
+            <span class="reading-time">3-minute read</span>
+          </div>
+
+        
+      </div>
+<script src="https://timfei.netlify.app/post/eve-data-collection/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p><strong>A new project Eve (Electric Vehicle and fuel combustion Vehicle Evaluation) here!</strong></p>
+<p>Recently, my partner is planning to buy her first car. As a former motor mechanic and a fan of data analysis, I decided to provide the best advice to her :)</p>
+<p>On the other hand, I am considering buying my first pure electric car since my father bought a Volkswagen ID.4X Pikachu version three weeks ago. Sometimes I think my father has a more innovative mindset to embrace the latest technology than me. LOL</p>
+<p><img src="images/ID.4X.jpeg" /></p>
+<p><strong>ID.4</strong> is an excellent pure electric car at an affordable price in China. However, I guess Volkswagen won’t bring it to the Australian market this year. I think the main reason is that China has comprehensive manufacturing chains to produce almost every piece of component and assemble them.</p>
+<p>The first step is to collect the data from the internet, which I have done 65% including over 40000 car data in Australia. I will study these data and try to create a model to evaluate the car price assisting my partner’s decision making.
+I also shared my scraping coding work on <a href="https://github.com/wwfeitim/Eve">Github</a>, and feel free to read and use it.</p>
+<p>Some sample data:</p>
+<pre><code>##                                             title     price   odometer  body
+## 1:           2011 BMW 1 Series 118i E87 Auto MY11  $8,222*  183,000 km Hatch
+## 2: 2011 BMW 3 Series 320d Lifestyle E90 Auto MY11  $9,000*  185,000 km Sedan
+## 3:         2011 BMW 1 Series 118i E87 Manual MY11  $9,500*  230,000 km Hatch
+## 4: 2011 BMW 3 Series 320d Lifestyle E90 Auto MY11 $10,900*  169,000 km Sedan
+## 5: 2011 BMW 3 Series 320d Lifestyle E90 Auto MY11 $10,990*  161,000 km Sedan
+## 6:           2011 BMW 1 Series 118i E87 Auto MY11 $11,990*  119,817 km Hatch
+##        trans                engline state             seller state_2
+## 1: Automatic       4cyl 2.0L Petrol NSW\n Private Seller Car   NSW\n
+## 2: Automatic 4cyl 2.0L Turbo Diesel QLD\n    Dealer Used Car   QLD\n
+## 3:    Manual       4cyl 2.0L Petrol QLD\n Private Seller Car   QLD\n
+## 4: Automatic 4cyl 2.0L Turbo Diesel NSW\n Private Seller Car   NSW\n
+## 5: Automatic 4cyl 2.0L Turbo Diesel NSW\n Private Seller Car   NSW\n
+## 6: Automatic       4cyl 2.0L Petrol QLD\n Private Seller Car   QLD\n</code></pre>
+<p>The second part is to build a calculator by <code>Shiny</code> and embed it into my blog. This calculator can predict the money saved by the switch from fuel combustion vehicle to pure electronic car in long-term period. Learning <code>Shiny</code> is a critical task in this project. By presenting the model through <code>Siny</code> app, everyone can use the tool without knowing to program it.</p>
+<p>Hoping I can complete this project by October.</p>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
+          <span class="separator"><a class="category" href="/categories/r/">R</a></span>
+
+
+
+
+        
+
+        
+          <span class="separator"><a class="tag" href="/tags/web-scraping/">web scraping</a></span>
+
+
+
+
+        
+      </div>
+    </div>
+
+    
   </div>
 
 
