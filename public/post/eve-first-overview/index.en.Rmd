@@ -163,7 +163,7 @@ This is the first stage in the EVE project. I will introduce some conclusions fr
 
 This introduction discusses the brands only, and I will involve some models and series in the next post. 
 
-The 13 brands are BMW, Land Rover, Mercedes-Benz, Isuzu, Jeep, Toyota, Nissan, Volkswagen, Subaru, Mitsubishi, Mazda, Holden and Hyundai. These brands cover the price range up to `$450,000`, and I believe it is sufficient for most buyers. 
+The 13 brands are BMW, Land Rover, Mercedes-Benz, Isuzu, Jeep, Toyota, Nissan, Volkswagen, Subaru, Mitsubishi, Mazda, Holden and Hyundai. These brands cover the price range up to `$450,000`, and I believe the capacity of data I collected is sufficient for this post. 
 
 
 ```{r bar1, fig.cap='Average price among 13 brands.',tidy=FALSE}

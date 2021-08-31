@@ -163,7 +163,7 @@ This is the first stage in the EVE project. I will introduce some conclusions fr
 
 This introduction discusses the brands only, and I will involve some models and series in the next post. 
 
-The 13 brands are BMW, Land Rover, Mercedes-Benz, Isuzu, Jeep, Toyota, Nissan, Volkswagen, Subaru, Mitsubishi, Mazda, Holden and Hyundai. These brands cover the price range up to `$450,000`, and I believe it is sufficient for most buyers. 
+The 13 brands are BMW, Land Rover, Mercedes-Benz, Isuzu, Jeep, Toyota, Nissan, Volkswagen, Subaru, Mitsubishi, Mazda, Holden and Hyundai. These brands cover the price range up to `$450,000`, and I believe the capacity of data I collected is sufficient for this post. 
 
 
 ```{r bar1, fig.cap='Average price among 13 brands.',tidy=FALSE}
@@ -189,9 +189,9 @@ df[!is.na(price_adj)][,.(med_price = median(price_adj)), .(make)] %>%
 
 Among the 13 makes, BMW, Mercedes-Benz and Land Rover have the highest average and median price, which is not surprised. 
 
-Interestingly, Isuzu was the 5th highest in this plot. I have never heard and saw any friends using this make, and perhaps the reason is relevant to its model. I will investigate the models in the next post. 
+Interestingly, Isuzu is the 5th highest in this plot. I have never heard and saw any friends using this make, and perhaps the reason is relevant to its model. I will investigate the models in the next post. 
 
-I will separate these 13 makes into three groups:
+I separate these 13 makes into three pricing groups:
 
 - 1: BMW, Land Rover and Mercedes-Benz 
 - 2: Isuzu, Jeep, Toyota, Nissan and Volkswagen 
@@ -232,8 +232,8 @@ df[!is.na(price_adj)][make %in% c("BMW","Land Rover","Mercedes-Benz")] %>%
 
 From figure \@ref(fig:bar3). \@ref(fig:bar4) and \@ref(fig:boxplot1), there are some interesting patterns:
 
-- 1: Land Rover rocketed the price in the model year 2020 and 2021 whilst BMW and Benz reduced the price from the 2020 model. It also happens on Volkswagen. Buying a new Land Rover MY20 and MY21 might not be a cautious decision this year.  
-- 2: Three makes have many luxury models that cover various segments. BMW luxury covers the segment from `$150,000` to `$250,000` while the Land Rover covers the segment from `$180,000` to `$350,000`. Mercedes-Benz luxury car segment includes the BMW and Land Rover luxury segments. 
+- 1: Land Rover rocketed the price in the model year 2020 and 2021 whilst BMW and Benz reduced the price of the 2021 model. It also happens on Volkswagen. Buying a new Land Rover MY20 and MY21 might not be a cautious decision this year.  
+- 2: Three makes have many luxury models that cover various segments. BMW luxury models covers the segment from `$150,000` to `$250,000` while the Land Rover covers the segment from `$180,000` to `$350,000`. The price of Mercedes-Benz luxury models includes the BMW and Land Rover luxury segments. 
 
 # Second group (Isuzu, Jeep, Toyota, Nissan and Volkswagen)
 
