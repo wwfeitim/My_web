@@ -455,8 +455,6 @@ gg_seller
 
 In the figure \@ref(fig:boxseller), The price distributed between Dealer Used Car and Private Seller Car is dramatically similar. It is a piece of significant evidence that many private sellers likely follow dealers' pricing approaches. 
 
-The price distributed between Dealer Used Car and Private Seller Car is dramatically similar. It is a piece of significant evidence that many private sellers likely follow dealers' pricing approaches.
-
 Consider that dealers often provide better covers on their vehicles, buyers who lack motor knowledge are recommended to evaluate dealer's offers first.  
 
 
