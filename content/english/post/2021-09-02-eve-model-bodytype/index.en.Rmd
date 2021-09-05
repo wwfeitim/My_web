@@ -457,12 +457,30 @@ In the figure \@ref(fig:boxseller), The price distributed between Dealer Used Ca
 
 Consider that dealers often provide better covers on their vehicles, buyers who lack motor knowledge are recommended to evaluate dealer's offers first.  
 
+<br>
 
+# Which state has a higher price on average?
 
+```{r state analysis}
+df_test[!state_only == ""]# valid number of sample
+df_states <- df_test[!state_only == "", .(averagprice = mean(price_adj), medprice = median(price_adj)), .(state_only)][order(-averagprice)]
+df_states[, avg_rate := percent(averagprice/min(averagprice)-1)][, med_rate := medprice/min(medprice)]
+gg_state <- df_states[, avg_rate := percent(averagprice/min(averagprice)-1)][, med_rate := medprice/min(medprice)] %>% 
+  ggplot(aes(x = state_only, y = averagprice))+
+  geom_col_interactive(aes(fill = state_only, tooltip = averagprice, data_id = round(averagprice, 2)))+
+  geom_text(aes(label = avg_rate), vjust = -0.5, hjust = 0.5)+
+  scale_fill_brewer(palette = "Paired")+
+  coord_cartesian(ylim = c(30000,43000))+
+  scale_y_continuous(labels = comma)+
+  labs( x = "State", y = "Average Price", title = "Average Price in States & % changes compare to NT", fill = "State")
 
+```
 
+```{r barstate, fig.cap='Average Price in States & % changes compare to NT', include=TRUE}
+ggiraph(ggobj = gg_state)
+```
 
-
+From the figure \@ref(fig:barstate), NT has the lowest average price in eight states. NSW and VIC have over 20% increment in average price compare to NT. This percentage change could be vital if you buy a luxury vehicle or several cars for business. 
 
 
 
