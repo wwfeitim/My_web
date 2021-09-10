@@ -8,7 +8,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 #Enable Disqus
-disqusShortname = "https://timminilab.disqus.com/embed.js"
+# disqusShortname = "https://timminilab.disqus.com/embed.js"
 
 # Google Analytics
 #googleAnalytics = "UA-123-45"
@@ -27,3 +27,8 @@ pygmentsCodefencesGuessSyntax = true
     category = "categories"
     series = "series"
     tag = "tags"
+
+[params.utterances]
+    repo = "wwfeitim/blog-comments"
+    issueTerm = "pathname"
+    theme= "preferred-color-scheme"
