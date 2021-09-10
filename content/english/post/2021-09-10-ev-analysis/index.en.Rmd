@@ -171,21 +171,21 @@ In the figure \@ref(fig:makekw), The power of the battery generally stays betwee
 
 <br>
 
-```{r km_kw, fig.cap='Battery Power(KW) & Travel Range by Makes', include=TRUE}
+```{r kmkw, fig.cap='Battery Power(KW) & Travel Range by Makes', include=TRUE}
 gg_point_KW_KM
 ```
 
-In the figure \@ref(fig:km_kw), the relationship between power and range is quite obvious that the higher battery power the longer travel ranges. A linear regression model demonstrates that **every 1 KW of battery power is estimated to increase travel by 0.6 km with an intercept of 266.5 km**. 
+In the figure \@ref(fig:kmkw), the relationship between power and range is quite obvious that the higher battery power the longer travel ranges. A linear regression model demonstrates that **every 1 KW of battery power is estimated to increase travel by 0.6 km with an intercept of 262 km**. 
 
-$$\widehat{range (km)} = 262.26380 + 0.63523*kw$$
+- range(km) = 262.26380 + 0.63523*kw
 
 <br>
 
-```{r price_range, fig.cap='Battery Power (KW) by Makes', include=TRUE}
+```{r pricerange, fig.cap='Battery Power (KW) by Makes', include=TRUE}
 ggiraph(ggobj = gg_point_range_price)
 ```
 
-In the figure \@ref(fig:price_range), we can see a clear linear relationship between price and range. Applying make, range, model years and odometers into the linear regression model, we have the summary below: 
+In the figure \@ref(fig:pricerange), we can see a clear linear relationship between price and range. Applying make, range, model years and odometers into the linear regression model, we have the summary below: 
 
 ```{r model2, include=TRUE}
 summary(model2)
