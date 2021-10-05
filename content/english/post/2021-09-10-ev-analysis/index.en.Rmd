@@ -166,7 +166,7 @@ summary(model2)
 gg_point_kw
 ```
 
-The battery is the core of an EV just like an engine for fuel combustion cars. 
+The battery is the core of an EV just like an engine for gasoline cars. 
 In the figure \@ref(fig:makekw), The power of the battery generally stays between 100KW and 300KW. 
 
 <br>
@@ -191,7 +191,7 @@ In the figure \@ref(fig:pricerange), we can see a clear linear relationship betw
 summary(model2)
 ```
 
-Most estimations are significant except odometers and model years. It means the odometer and model years are unlikely to have a significant impact on price. This is the biggest difference to fuel combustion cars. 
+Most estimations are significant except odometers and model years. It means the odometer and model years are unlikely to have a significant impact on price. This is the biggest difference to gasoline cars. 
 
 The linear regression model, however, demonstrates that **every 1 km increment of the range is estimated to increase 100 AUD on price**. 
 

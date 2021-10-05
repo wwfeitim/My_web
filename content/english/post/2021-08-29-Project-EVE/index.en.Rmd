@@ -13,9 +13,9 @@ thumbnail: "images/birds/black_parrot.jpg"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**A new project Eve (Electric Vehicle and fuel combustion Vehicle Evaluation) here!**
+**A new project Eve (Electric Vehicle and gasoline Vehicle Price Evaluation) here!**
 
-Recently, my partner is planning to buy her first car. As a former motor mechanic and a fan of  data analysis, I decided to provide the best advice to her :) 
+Recently, my partner is planning to buy her first car. As a former motor mechanic and a fan of data analysis, I decided to provide the best advice to her :) 
 
 On the other hand, I am considering buying my first pure electric car since my father bought a Volkswagen ID.4X Pikachu version three weeks ago.  Sometimes I think my father has a more innovative mindset to embrace the latest technology than me. LOL
 
@@ -35,6 +35,6 @@ head(df)
 ```
 
 
-The second part is to build a calculator by `Shiny` and embed it into my blog. This calculator can predict the money saved by the switch from fuel combustion vehicle to pure electric car in long-term period. Learning `Shiny` is a critical task in this project. By presenting the model through `Siny` app, everyone can use the tool without knowing how to program it.
+The second part is to build a calculator by `Shiny` and embed it into my blog. This calculator can predict the money saved by the switch from gasoline vehicle to pure electric car in long-term period. Learning `Shiny` is a critical task in this project. By presenting the model through `Siny` app, everyone can use the tool without knowing how to program it.
 
 Hoping I can complete this project by October.
