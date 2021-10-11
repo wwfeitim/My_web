@@ -193,7 +193,7 @@ summary(model2)
 
 Most estimations are significant except model years 2013. For the increment of every 10,000 km of odometers, the price is estimated to reduce 1.6% with significant evidence. This decrement seems to be fairly small. The kw and range_km are correlated in regression but I will not further investigate the endogeneity in this post.
 
-The linear regression model, however, demonstrates that **every 1 km increment of the range is estimated to increase 100 AUD on price**. 
+The linear regression model, however, demonstrates that **every 1 kw increment in battery is estimated to increase 0.2627% on price**. 
 
 <br>
 
