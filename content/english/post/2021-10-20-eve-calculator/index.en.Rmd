@@ -1,0 +1,31 @@
+---
+title: "Web app EVE calculator"
+author: "Wenwei Fei"
+date: 2021-10-20
+categories: ["R"]
+tags: ["ggplot2", "Shinny"]
+draft: FALSE
+slug: "eve-calculator"
+thumbnail: "images/birds/bird_6.jpg"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, include = FALSE)
+```
+
+
+# Introducing EVE (Electric Vehicle Evalution) Calculator
+
+The last piece of my EVE project is completed. I created a light-weighted web app by Shiny in R. It is a calculator that assists you to decide whether you should buy a pure electric car or a gasoline car.
+It demonstrates the future value and expenditures of cars with a short conclusion. You can find more details in this app. Besides, you can also use this calculator to predict future value and estimate expenditures for gasoline cars only.
+
+https://timminilab.shinyapps.io/EVE_calculator/
+
+
+
+
+
+
+
+
+
